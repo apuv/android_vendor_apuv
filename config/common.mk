@@ -149,6 +149,7 @@ PRODUCT_PACKAGES += \
     AudioFX \
     CMWallpapers \
     CMFileManager \
+    CMUpdater \    
     Eleven \
     LockClock \
     CMUpdater \
