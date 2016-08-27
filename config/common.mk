@@ -131,9 +131,12 @@ include vendor/cm/config/cmsdk_common.mk
 
 # Required CM packages
 PRODUCT_PACKAGES += \
+    CMAudioService \
     Development \
     BluetoothExt \
-    Profiles
+    Profiles \
+    ThemeManagerService \
+    WeatherManagerService
 
 # Optional CM packages
 PRODUCT_PACKAGES += \
@@ -158,7 +161,8 @@ PRODUCT_PACKAGES += \
     ExactCalculator \
     LiveLockScreenService \
     WeatherProvider \
-    DataUsageProvider
+    DataUsageProvider \
+    WallpaperPicker
 
 # Exchange support
 PRODUCT_PACKAGES += \
